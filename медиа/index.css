@@ -1,0 +1,66 @@
+body{
+    background-color:rgba(255, 255, 0, 0.66);
+    display: block;
+}
+
+.box{
+    width: 700px;
+    height: 400px;
+    border: 3px solid green;
+    background-image: url("https://images.wallpapershq.com/wallpapers/3213/thumbnail_350x758.jpg");
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px 7px 0 0 ;
+    margin-bottom: 150px;
+}
+.text{
+    text-align: center;
+    margin-top: 400px;
+    border: 2px solid rgb(0, 102, 0);
+    background-color: mediumseagreen;
+    border-radius: 0 0 7px 7px ; 
+    
+}
+.text:hover{
+    transition:3s;
+    background-color: green;
+    margin-top: 300px;
+}
+.icon{
+    width: 5px;
+    height: 5px;
+    background-image: url("https://i.gadgets360cdn.com/large/Telegram_webz_webk_launch_1618814448919.jpg");
+}
+img{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+}
+@media (max-width:768px ){
+    .box{
+       width: 100%;
+       margin-bottom: 20%;
+    }
+}
+@media (min-width:768px) and (max-width:992px ){
+    .box{
+       width: 40%;
+       margin-bottom: 20%;
+       display: inline-block;
+    }
+}
+@media (min-width:992px) and (max-width:1024px ){
+    .box{
+       width: 30%;
+       margin-bottom: 20%;
+       display: inline-block;
+    }
+}
+@media (min-width:1024px) {
+    .box{
+       width: 20%;
+       margin-bottom: 20%;
+       display: inline-block;
+    }
+}
