@@ -1,0 +1,56 @@
+.container{
+    position: relative;
+}
+
+
+.fixed{
+    display: inline-block;
+    
+}
+.fix{
+    
+    position: absolute;
+    bottom: 95%;
+    right:0px;
+    top: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+img{
+    
+    margin: 0px;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+
+
+}
+.icon img{
+    position: absolute;
+    top: 20px;
+    left: -500px;
+    width:30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+   padding-right: 117%;
+
+}
+.text{
+    position: absolute;
+    top: 50%;
+    border: 3px solid black;
+    left: 200px;
+}
+.button1{
+    position: absolute;
+    top: 500px;
+    right: 800px;
+}
+.button2{
+    position: absolute;
+    top: 500px;
+    right: 650px;
+}

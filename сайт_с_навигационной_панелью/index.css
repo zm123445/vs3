@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/229576155.jpg?k=72f37a20ab4d0560deda07551d6c00e9bbf4cf871f38edf30ed9c2111ec8ee29&o=&hp=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+ul{
+    border: 3px solid rgb(21, 65, 34);
+    background-color: rgb(48, 109, 44, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul li{
+    display: inline-block;
+    transition: 1s;
+    font-weight: 900;
+    font-size: 25px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+ul li:hover{
+    transition: 1s linear;
+    transform: scale(1.5);
+}
+b{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+span{
+    color: rgb(36, 36, 140);
+    margin-right: 3px;
+}
+p{
+    border: 3px solid rgb(22, 87, 101);
+    padding: 30px;
+    margin: 200px 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+button{
+ border: 3px solid rgb(22, 87, 101);
+ border-radius: 6px;
+ background-color: rgb(21, 65, 34, 0.8);
+ font-weight: 600;
+}
+/* .picture img{
+    width: 500px;
+}
+.text2{
+   color: rgb(36, 36, 140); 
+   font-weight: 900;
+}
+.info1 b, .text2{
+    font-size: 30px;
+    display:inline-flex;
+    
+
+}
+.info1{
+    width: 900px;
+    height: 300px;
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+} */
+
+
+
